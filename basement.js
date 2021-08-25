@@ -67,7 +67,7 @@ class box {
             if (this.xvel > 0){this.xvel = this.xvel - 0.01}
             if (this.xvel < 0){this.xvel = this.xvel + 0.01}
             this.y = screenh - this.height
-            this.yvel = -this.yvel/1.3
+            this.yvel = -this.yvel/1.2
             this.element.style.top = y + "px"
         }
         if(x < 0){
