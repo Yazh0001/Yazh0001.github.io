@@ -1,0 +1,242 @@
+html{
+    user-select: none;
+}
+
+body{
+    margin: 0%;
+    height: 2320px;
+    background-image: url("images/Blackboard texture.jpg");
+}
+
+
+
+#navbar{
+    position: fixed;
+    float: left;
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 100px;
+    transition: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514);
+}
+
+#navbar:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+#option-container{
+    position: absolute;
+    margin-left: 25%;
+    height: 100%;
+    width: 50%;
+}
+
+.option{
+    float: left;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.option:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.option:hover p{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    margin-top: 40px;
+    color: rgb(175, 175, 175);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    user-select: none;
+    transition: 0.1s;
+}
+
+#nav-logo{
+    position: absolute;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#gitlogo{
+    position: absolute;
+    width: 40px;
+    right: 7%;
+    top: 30px;
+}
+
+#linkedinlogo{
+    position: absolute;
+    width: 40px;
+    right: 2%;
+    top: 30px;
+}
+
+#title-container{
+    position: absolute;
+    width: 20%;
+    height: 100px;
+    left: 15%;
+    background-color: white;
+}
+
+h1{
+    position: absolute;
+    color: white;
+    font-size: 50pt;
+    font-family:'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: flicker 3s;
+    animation-iteration-count: infinite;
+
+    top: 200px;
+    left: 15%;
+
+}
+
+@keyframes flicker {
+    0%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    35%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    36%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    45%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    49%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    50%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    53%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    56%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    59%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    62%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    63%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    64%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    100%{text-shadow: 0 0 10px white;
+    color: white;}
+}
+
+#cons{
+    position: absolute;
+    left: 934px;
+    top: 255px;
+}
+
+.card{
+    overflow: hidden;
+    position:absolute;
+    background-color: rgb(46, 46, 46);
+    transition: 0.2s;
+
+    width: 75%;
+    height: 400px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514);
+    border-radius: 10px;
+}
+
+#card-1{
+    left: 12.5%;
+    top: 800px;
+}
+
+#card-2{
+    left: 12.5%;
+    top: 1400px;
+}
+
+h2{
+    margin-top: 10px;
+    position: absolute;
+    left: 35%;
+    color: white;
+    font-size: 30pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.paragraph-container{
+    position:absolute;
+    width: 50%;
+    height: 33%;
+
+    left: 35%;
+    top: 33%;
+}
+
+h3{
+    position: absolute;
+    margin-top: 0%;
+    color: rgb(255, 255, 255);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    user-select: none;
+}
+
+.button-container{
+    position:absolute;
+    width: 50%;
+    height: 33%;
+    left: 35%;
+    top: 66%;
+}
+
+.b{
+    width: 35%;
+    height: 50%;
+    float: left;
+    background-color: white;
+    text-align: center;
+    margin-left: 10%;
+    transform: translatey(50%);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514);
+}
+
+.b:hover{
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.466);
+}
+
+.b:hover h4{
+    color: white;
+}
+
+h4{
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:normal;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
