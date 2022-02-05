@@ -100,45 +100,53 @@ h1{
 }
 
 @keyframes flicker {
-    0%{text-shadow: 0 0 10px white;
+    0%{text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    15%{text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    16%{
+        text-shadow: 0 0 10px white;
         color: white;
     }
-    35%{text-shadow: 0 0 10px white;
+    20%{
+        text-shadow: 0 0 10px white;
         color: white;
     }
-    36%{
+    21%{
         text-shadow: 0 0 10px rgb(0, 0, 0);
         color: black;
     }
-    45%{
+    35%{
         text-shadow: 0 0 10px rgb(0, 0, 0);
         color: black;
     }
-    49%{text-shadow: 0 0 10px white;
+    39%{text-shadow: 0 0 10px white;
         color: white;
     }
-    50%{text-shadow: 0 0 10px white;
+    40%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    43%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    46%{text-shadow: 0 0 10px white;
+        color: white;
+    }
+    49%{
+        text-shadow: 0 0 10px rgb(0, 0, 0);
+        color: black;
+    }
+    52%{text-shadow: 0 0 10px white;
         color: white;
     }
     53%{
         text-shadow: 0 0 10px rgb(0, 0, 0);
         color: black;
     }
-    56%{text-shadow: 0 0 10px white;
-        color: white;
-    }
-    59%{
-        text-shadow: 0 0 10px rgb(0, 0, 0);
-        color: black;
-    }
-    62%{text-shadow: 0 0 10px white;
-        color: white;
-    }
-    63%{
-        text-shadow: 0 0 10px rgb(0, 0, 0);
-        color: black;
-    }
-    64%{text-shadow: 0 0 10px white;
+    54%{text-shadow: 0 0 10px white;
         color: white;
     }
     100%{text-shadow: 0 0 10px white;
